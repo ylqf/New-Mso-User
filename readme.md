@@ -13,6 +13,8 @@
 
 Edit `./config.php` and `./create/*.ps1`
 
+For more information, please visit [https://github.com/xb2016/New-Mso-User/wiki/%E8%AF%B4%E6%98%8E](https://github.com/xb2016/New-Mso-User/wiki/%E8%AF%B4%E6%98%8E)
+
 ## Environment
 
 - Windows ( TEST: Windows 10 Pro 1709 )
