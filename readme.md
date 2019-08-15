@@ -4,7 +4,7 @@
 
 <p align="center">
 <a href="https://www.fczbl.vip"><img alt="Author" src="https://img.shields.io/badge/Author-Moedog-blue.svg?style=flat-square"></a>
-<img alt="License" src="https://img.shields.io/badge/license-GPL3-red.svg"/>
+<img alt="License" src="https://img.shields.io/github/license/xb2016/New-Mso-User.svg?style=flat-square"/>
 </p>
 
  > :meat_on_bone: Create Microsoft Online Service ( Office 365 ) Account By Yourself
@@ -40,4 +40,4 @@ For more information, please visit [https://github.com/xb2016/New-Mso-User/wiki/
 
 **New-Mso-User** © [Moedog](https://github.com/xb2016), Released under the [GPL-3.0](./LICENSE) License.<br>
 
-> Blog [fczbl.vip](https://www.fczbl.vip) · GitHub [@xb2016](https://github.com/xb2016) · Twitter [@fczbl](https://twitter.com/fczbl)
+> Blog [fczbl.vip](https://www.fczbl.vip) · GitHub [@xb2016](https://github.com/xb2016) · Twitter [@moesdog](https://twitter.com/moesdog)
