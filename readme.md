@@ -11,9 +11,7 @@
 
 ## Before start
 
-Edit `./config.php` and `./create/*.ps1`
-
-For more information, please visit [https://github.com/xb2016/New-Mso-User/wiki/%E8%AF%B4%E6%98%8E](https://github.com/xb2016/New-Mso-User/wiki/%E8%AF%B4%E6%98%8E)
+Please visit [https://github.com/xb2016/New-Mso-User/wiki/%E8%AF%B4%E6%98%8E](https://github.com/xb2016/New-Mso-User/wiki/%E8%AF%B4%E6%98%8E)
 
 ## Environment
 
@@ -40,4 +38,4 @@ For more information, please visit [https://github.com/xb2016/New-Mso-User/wiki/
 
 **New-Mso-User** © [Moedog](https://github.com/xb2016), Released under the [GPL-3.0](./LICENSE) License.<br>
 
-> Blog [fczbl.vip](https://www.fczbl.vip) · GitHub [@xb2016](https://github.com/xb2016) · Twitter [@moesdog](https://twitter.com/moesdog)
+> Blog [moedog.org](https://moedog.org) · GitHub [@xb2016](https://github.com/xb2016) · Twitter [@moesdog](https://twitter.com/moesdog)
