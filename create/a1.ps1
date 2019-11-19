@@ -1,6 +1,6 @@
 [CmdletBinding()]
 Param([string]$d, [string]$u, [string]$p)
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+#Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 $CommandList = (Get-Command -All)
 If (-Not("Connect-MsolService" -in $CommandList.Name)) { Echo "Installing..."; Install-Module -Scope CurrentUser -Name MSOnline -Force }
 

@@ -18,7 +18,7 @@ function pwd8() {
     return $hash;
 }
 
-$name = $user = $email = $domain = $nameErr = $userErr = $emailErr = $domainErr = "";
+$name = $user = $email = $domain = $nameErr = $userErr = $emailErr = $domainErr = $do_create = "";
 
 if($_SERVER["REQUEST_METHOD"] != "POST"){ ?>
 <!DOCTYPE HTML>
