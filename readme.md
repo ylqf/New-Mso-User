@@ -13,6 +13,10 @@
 
 Please visit [https://github.com/xb2016/New-Mso-User/wiki/%E8%AF%B4%E6%98%8E](https://github.com/xb2016/New-Mso-User/wiki/%E8%AF%B4%E6%98%8E)
 
+## For Linux Users
+
+You can use this project instead: [https://github.com/HuJK/O365-UC](https://github.com/HuJK/O365-UC)
+
 ## Environment
 
 - Windows ( TEST: Windows 10 Pro 1709 )
