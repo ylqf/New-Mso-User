@@ -1,6 +1,6 @@
 <?php
 
-include './config.php';
+include '../config.php';
 
 function test_input($data){
     $data = trim($data);
@@ -18,7 +18,7 @@ function pwd8() {
     return $hash;
 }
 
-$name = $user = $email = $domain = $nameErr = $userErr = $emailErr = $domainErr = "";
+$name = $user = $email = $domain = $nameErr = $userErr = $emailErr = $domainErr = $do_create = "";
 
 if($_SERVER["REQUEST_METHOD"] != "POST"){ ?>
 <!DOCTYPE HTML>
@@ -74,13 +74,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if($do_create){
         $user .= '@'.$domain;
         $tempwd = pwd8();
-        $result = Shell_Exec ('powershell.exe -executionpolicy bypass -NoProfile -File ".\\create\\a1.ps1" -d "'.$name.'" -u "'.$user.'" -p "'.$tempwd.'"');
+        $result = Shell_Exec ('powershell.exe -executionpolicy bypass -NoProfile -File "..\\create\\a1.ps1" -d "'.$name.'" -u "'.$user.'" -p "'.$tempwd.'"');
             if(strstr($result,'Fin')){ ?>
                 <div class="finish">操作成功完成</div>
                 <textarea id="result" name="result" readonly="true"><?php echo "用户名：".$user."\n临时密码：".$tempwd; ?></textarea>
                 <button class="button copy" type="button" name="copy" data-clipboard-target="#result">复制</button><?php
                 $userinfo = $user.','.$name.','.$email;
-                $file = fopen("logs.text","a+");
+                $file = fopen("..\\logs.log","a+");
                 $str = fwrite($file,$userinfo."\n");
                 fclose($file);
             }elseif(strstr($result,'Auth')){

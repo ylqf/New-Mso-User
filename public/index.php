@@ -1,4 +1,4 @@
-<?php include './config.php'; ?>
+<?php include '../config.php'; ?>
 <!DOCTYPE html>
 <!--
      ____ _  __ __  __ __ __ ____
@@ -17,7 +17,7 @@
     <meta name="format-detection" content="telphone=no,email=no">
     <meta name="keywords" content="MSO, Office, 365, 犬, 狗子, 小白-白">
     <meta name="description" content="MSO 账号兑换平台 - Moedog 保留所有权利">
-    <title>MSO 365 Application - Powered by Moedog</title>
+    <title>MSO 365 Application</title>
     <link href="static/css/main.css" rel="stylesheet">
     <link rel="shortcut icon" href="static/favicon.ico">
   </head>
